@@ -1,0 +1,14 @@
+Dataset: The dataset is  an industrial plant with 14 devices and features are:
+o date_time : date and time values in IST format
+
+o device_id: 14 devices in the plant (values rom 1 to 14)
+
+o factor1: one of key factor to predict the faults. Value varies from 0 to 1000 units.
+o factor2: one of key factor to predict the faults. Value varies from 0 to 1700 units.
+
+o factor3, factor4, factor5, factor6, factor7: additional factors to predict the faults.
+
+o fault_name: name of the faults occurred in the devices (type: text/string)
+
+o fault_class: binary class label. ‘fault_class’ = ‘no’, means there is no fault in the device. 
+      				   ‘fault_class’ = ‘yes’, means there is a fault in the device.
